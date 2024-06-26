@@ -1,4 +1,4 @@
-![Alt text](/img/checkout.png?raw=true)
+![Alt text](/checkout.png?raw=true)
 Screenshots do Checkout
 
 # Checkout
