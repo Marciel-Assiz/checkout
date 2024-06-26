@@ -1,0 +1,393 @@
+/* social icons */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.nav-checkout {
+    width: 100%;
+    height: 90px;
+    background-color: #f5f5f5;
+    border-bottom: solid 2px;
+    border-color: #dbdada;
+}
+
+.nav-checkout {
+    padding-top: 20px;
+}
+
+.dados-seguros {
+    color: #baafaf;
+    font-size: 9px;
+    text-align: center;
+}
+
+.dados-seguros span {
+    font-size: 30px;
+    color: red;
+}
+
+.form-checkout {
+    font-size: 12px !important;
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+    border: solid 1px #cccccc;
+    border-radius: 5px;
+}
+
+.imput-checkout input {
+    margin-bottom: 10px;
+    width: 90%;
+    float: right;
+}
+
+.input-entrega {
+    margin-top: 7px;
+}
+
+.imput-checkout span {
+    float: left;
+    padding-top: 15px;
+    color: red;
+}
+
+.imput-checkout-entrega input {
+    margin-bottom: 10px;
+    width: 90%;
+    float: right;
+}
+
+.imput-checkout-entrega .numero-rua {
+    width: 25% !important;
+}
+
+.imput-checkout .icon-cpf {
+    margin-top: 13px;
+    margin-bottom: 11px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.icon-autorenew {
+    float: right;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 5px;
+    color: red;
+}
+
+.icon-cep {
+    float: left;
+    padding-top: 15px;
+    color: red;
+}
+#unidade_federal {
+    font-size: 14px;
+}
+
+.imput-checkout .cpf-ivalido {
+ border: solid 1px red;    
+}
+.imput-checkout .cpf-valido {
+    border: solid 1px #05f608;    
+}
+
+.checkout-row1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.checkout-col3 {
+    margin-top: -27px;
+}
+
+#tblListar tbody {
+    font-size: 10px;
+}
+
+button, .button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border-style: solid;
+	border-width: 0;
+	cursor: pointer;
+	font-family: "Lato","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+	font-weight: normal;
+	line-height: normal;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 10px 10px 10px;
+	font-size: 1rem;
+	background-color: red;
+	border-radius: 5px;
+	color: #fff;
+	transition: background-color 300ms ease-out;
+}	
+
+.table-checkout button {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: transparent;
+    color: red;
+    font-size: 22px
+}
+
+.title_resumo_carrinho h5 {
+    position: relative;
+    font-size: 1rem;
+    margin-top: -10px;
+    padding-bottom: 5px;
+}
+
+.table-checkout td {
+    padding: 0.2rem;
+    vertical-align: middle;
+}
+.div-left {
+    margin-left: 5%;
+}
+.div-cep {
+    width: 100%;
+    height: 80px;
+    border: solid #dbdada 1px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 2%;
+}
+
+.div-envio {
+    width: 100%;
+    height: 80px;
+    border: solid #dbdada 1px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 2%;
+}
+
+.div-pagamento {
+    width: 100%;
+    height: 80px;
+    border: solid #dbdada 1px;
+    border-radius: 5px;    
+    padding: 2%;
+}
+
+.btn-confirmar {
+    width: 100%;
+    background-color: transparent;
+    color: #05f608;
+    border: solid 2px #05f608;
+}
+.btn-cpf-ivalido {
+    border: solid 2px red;
+    color: red;
+}
+
+.btn-empresa {
+    position: relative;
+    padding-top: 0 !important;
+}
+
+input:invalid {
+    border: solid 1px red;
+}
+input:valid {
+    border: solid 1px #05f608;
+}
+
+.input-checkout-readonly {
+    border: solid 1px #05f608;
+}
+
+.rotation-on {
+    -webkit-animation: rotation .7s infinite linear;
+}
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
+.icon-endereco {
+    margin: 0px;
+    float: right;
+    right: 0px;
+    padding: 0px;
+    color: #958a8a;
+    cursor: pointer;
+}
+
+.endereco-done {
+    color: #05f608;
+}
+
+.img-logo {
+    text-align: center;
+}
+
+.btn-val-frete {
+    color: #000000;
+    border: solid 1px #717378;
+    background-color: #e5e6e8;
+    text-align: center;
+    font-size: 8pt;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-total {
+    color: #11f614;
+    font-size: 14pt !important;
+    text-align: left;
+}
+.btn-sub-total {
+    color: #717378;
+    font-size: 10pt;
+}
+.btn-total, .btn-sub-total {
+    font-size: 13px;
+    background-color: transparent !important;
+}
+.button-pay {
+    width: 100%;
+    margin-top: 2%;
+}
+
+/* footer */
+#social {
+    position: absolute;
+    bottom: 0px;
+    background: #f5f5f5;
+    z-index: 20;
+    height: auto;
+    padding: 1%;
+    color: #9E9E9E;
+}
+
+.social-container {
+  text-align: center;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+  zoom: 1;
+}
+.social-icons li {
+    display: inline-block;
+    margin: 0.15em;
+    position: relative;
+    font-size: 1.8em;
+}
+.social-icons i {
+    color: #fc2637;
+    position: absolute;
+    top: 21px;
+    left: 21px;
+    transition: all 265ms ease-out;
+}
+.social-icons a {
+  display: inline-block;
+}
+.social-icons a:before {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    content: " ";
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: block;
+    background: linear-gradient(90deg, #f30303, #fff);
+    transition: all 265ms ease-out;
+    opacity: 0 !important;
+}
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: #00b5f5;
+  background: -webkit-linear-gradient(45deg, #f30303, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+/* fim social icons */
+
+/*login*/
+.login {
+	background-color: #e9e6e6;
+	margin-top: 4%;
+	margin-bottom: 4%;
+    /* border-top-left-radius: 5%; */
+    border-top-right-radius: 20%;
+    /* border-bottom-right-radius: 5%; */
+    border-bottom-left-radius: 20%;
+}
+.label-email {
+	position: relative;
+	text-align: left;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+.label-senha {
+	position: relative;
+	text-align: left;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+.btn-entrar {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.hello-wellcome {
+    position: fixed;
+    font-size: 16pt;
+    border: solid #ff0000 2px;
+    background-color: #640c0c;
+    color: #ff0000;
+    top: 3%;
+    right: 2%;
+    z-index: 100
+}
+
+.init-wait {
+    transition: 0.5s;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #03030375;
+    z-index: 100;
+    text-align: center;
+}
+
+.fa-spinner {
+    display: none;
+}
+.spinner {
+    display: block;
+    font-size: 80pt;
+    position: relative;
+    color: #fff;
+    margin-top: 20%;
+    z-index: 101;
+    -webkit-animation: rotation .25s infinite linear;
+} 
+@-webkit-keyframes rotation { /* spinner dependency */
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(45deg);
+    }
+}
