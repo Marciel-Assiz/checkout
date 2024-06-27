@@ -61,7 +61,7 @@
                             <input id="input_name" class="form-control" type="text" placeholder="José João Da Silva">
 
                             <span class="icon-cpf"><b> CPF </b></span>
-                            <input value="045.126.049-01" class="form-control " name="cpf" id="cpf" type="tel" placeholder="Digite seu CPF" data-mask="000.000.000-00" minlength="14" maxlength="14" required="" autocomplete="off" onchange="BuscaCPFdoImput(value);">
+                            <input value="393.029.469-91" class="form-control " name="cpf" id="cpf" type="tel" placeholder="Digite seu CPF" data-mask="000.000.000-00" minlength="14" maxlength="14" required="" autocomplete="off" onchange="BuscaCPFdoImput(value);">
 
                             <span class="material-icons"> local_phone </span>
                             <input class="form-control" id="telefone" name="telefone" type="tel" placeholder="Telefone residencial opcional" data-mask-type="tel" data-mask="(00) 0000-0000" maxlength="14" minlength="14" value="" autocomplete="off">
